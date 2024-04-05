@@ -1,12 +1,12 @@
 #Exercise 1: Formula
 
-# C = 50
-# H = 30
-# D = input("Enter a comma-separated string of numbers: ").split(",")
+C = 50
+H = 30
+D = input("Enter a comma-separated string of numbers: ").split(",")
 
-# Q = [int(((2*C*int(d)/H))**0.5) for d in D]
+Q = [int(((2*C*int(d)/H))**0.5) for d in D]
 
-# print(Q)
+print(Q)
 
 #Exercise 2 : List Of Integers
 
