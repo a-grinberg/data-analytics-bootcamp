@@ -1,6 +1,7 @@
 from pyowm.owm import OWM
 import matplotlib
 import tkinter
+
 def get_forecast(city):
     owm = OWM('ff2723c8cd446d052df25607ff1c159f')
     mgr = owm.weather_manager()
