@@ -1,0 +1,73 @@
+Exercise 1: Introduction To Data Analysis (Easy)
+
+
+Objective: Understand The Basic Overview And Significance Of Data Analysis.
+Task:
+Write a short essay or report on the following topics:
+What is data analysis?
+Why is data analysis important in modern contexts?
+List and describe three areas where data analysis is applied today.
+Hint/Tip:
+Research current trends in data analysis and real-world examples to provide depth to your essay.
+
+A: 
+Data analysis is the process of systematically applying statistical and logical techniques to describe, condense, recap, and evaluate data. It involves inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, drawing conclusions, and supporting decision-making. Data analysis can be broken down into several stages: collecting data, processing and cleaning data, analyzing the data using various techniques, and interpreting and presenting the results . In theese days data analysis is crucial for several reasons. Organizations rely on data analysis to make informed decisions. By analyzing past data, businesses can predict future trends, understand customer behavior, and make strategic decisions that align with their goals. Data analysis helps in identifying inefficiencies within processes and systems, allowing organizations to streamline operations, reduce costs, and enhance productivity. As well through data analysis, potential risks can be identified and mitigated before they become problematic.
+Data analysis fuels innovation by providing insights that can lead to new products, services, and business models. It helps in understanding market gaps and customer needs, driving the development of innovative solutions.
+
+Exercise 2: Dataset Loading And Initial Analysis
+
+
+Objective: Practice Dataset Loading From Kaggle And Initial Analysis.
+Task:
+for the following dataset : How Much Sleep Do Americans Really Get?, Global Trends in Mental Health Disorder and Credit Card Approvals.
+
+Load the dataset into Jupyter or Google Colab.
+Display the first few rows.
+Provide a brief dataset description.
+
+A: look at the file exercises_2_and_3.ipynb
+
+Exercise 3: Identifying Data Types
+
+Objective: Learn To Identify Different Data Types.
+Task:
+For the datasets from the previous exercise, categorize each column of it as either quantitative or qualitative and explain your reasoning.
+
+A: look at the file exercises_2_and_3.ipynb
+
+
+Exercise 4: Exploring Data Types
+
+Objective: Learn About Different Types Of Data In Data Analysis.
+Task:
+Load the Iris dataset using Kaggle into a Jupyter Notebook or Google Colaboratory Notebook.
+Identify and list which columns in your dataset are qualitative and which are quantitative.
+Write a brief description of why each column is classified as qualitative or quantitative.
+Tools: Jupyter Notebook, Python with Pandas library.
+
+A: look at the file exercises_4_and_5.ipynb
+
+Exercise 5: Basic Data Analysis With Google Colab
+
+Objective: Perform Basic Data Analysis Using Google Colab.
+Task:
+Using the same notebook from the previous exercise, perform basic data analysis tasks:
+Calculate the mean, median, and mode of a quantitative column.
+Create a simple plot (like a histogram or bar chart) to visualize the data using Matplotlib/Seaborn libraries :
+import matplotlib.pyplot as plt
+plt.plot(data['Name_column1'], data['Name_column2'])
+plt.show()
+Document your findings in the notebook.
+Tools: Google Colab, Python with Pandas and Matplotlib/Seaborn libraries.
+
+A: look at the file exercises_4_and_5.ipynb
+
+Exercise 6: Basic Observation Skills In Data Analysis
+
+Objective: Develop Observation Skills For Data Analysis.
+Task:
+Load the How Much Sleep Do Americans Really Get? dataset into Jupyter or Google Colab.
+Identify columns that could be interesting for a specific type of analysis (e.g., trend analysis, group comparison) and explain your choice.
+Tools: Jupyter Notebook, Python with Pandas library.
+
+A: look at the file exercises_6.ipynb
