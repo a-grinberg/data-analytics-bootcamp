@@ -29,5 +29,7 @@ for button in plans:
         products['price'].append(price)
         products['features'].append(feature_list)
 
-df = pd.DataFrame(products)
-df.to_csv(path_or_buf='C:/', sep=',')
+# df = pd.DataFrame(products)
+# df.to_csv(path_or_buf='C:/', sep=',')
+
+print(products)
